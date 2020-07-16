@@ -16,6 +16,7 @@ Notable STEM courses I enrolled in included
 * Web Design (2 Semesters)
 * AP Computer Science (College-Level Course, completed AP test with a score of 4, full year)
 * Robotics (2 Semesters)
+* Applied Engineering (1 Semester)
 
 I have also completed several projects similar to this that I used to refine and expand my knowledge. As of now, they are a lot more poorly documented. Here are some links:
 
@@ -25,6 +26,7 @@ I have also completed several projects similar to this that I used to refine and
 
 [ArduinoVexRobotControl](https://github.com/kodosexe/ArduinoVexRobotControl)
 
+[HariLamp - made public only for this Job Application](https://github.com/kodosexe/hariLamp)
 
 I am currently working on a website for a local Pittsburgh restaurant,  pabellonpgh.com. Completion of the website is dependant on the delivery date of new menus.
 I am also in talks with the owner to develop a mobile app for the restaurant in the future.
