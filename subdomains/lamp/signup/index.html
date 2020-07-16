@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lamp Signup</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+        
+        <form action="signup.php" method="POST" id="form">
+            <h1>Sign up for lamp service</h1>
+            <p>Name:</p>
+            <input type="text" name="name">
+            <p>Last Name:</p>
+            <input type="text" name="lastname">
+            <p>Email:</p>
+            <input type="email" name="email" id="email">
+            <p>Repeat Email:</p>
+            <input type="email" name="repeatEmail" id="emailRepeat" onchange="checkWhetherEmailsMatch()" oninput="checkWhetherEmailsMatch()">
+            <p>Username:</p>
+            <input type="text" name="username">
+            <p>Password</p>
+            <input type="password" name="password" id="password">
+            <p>Repeat Password</p>
+            <input type="password" name="repeatPassword"  onchange="checkWhetherPasswordsMatch()" id="passwordRepeat" oninput="checkWhetherPasswordsMatch()">
+            <br>
+            <input type="submit" name="submit" class="submit" id="submit" value="Sign Up">
+            <br>
+            <div class="passwordsDontMatch errMess" id="passwordsDontMatch">
+                <p id="passMatchIndicator">Passwords don't match</p>
+            </div>
+            <br>
+            <div class="emailsDontMatch errMess" id="emailsDontMatch">
+                <p id="emailMatchIndicator">Emails don't match</p>
+            </div>
+
+        </form>
+        <p>Already have an account? <a href="http://www.lamp.kodos.epizy.com/login">Sign in now!</a></p>
+        
+        </div>
+        <script>
+            function checkWhetherPasswordsMatch() {
+                var origPass = document.getElementById("password");
+                var repeatPass = document.getElementById("passwordRepeat");
+                var out = document.getElementById("passwordsDontMatch");
+                var button = document.getElementById("submit");
+
+                if (origPass.value != repeatPass.value) {
+                    out.style.display = "inline-block";
+
+                } else {
+                    out.style.display = "none";
+                }
+            }
+
+            function checkWhetherEmailsMatch() {
+                var origMail = document.getElementById("email");
+                var repeatMail = document.getElementById("emailRepeat");
+                var out = document.getElementById("emailsDontMatch");
+
+                if (origMail.value != repeatMail.value) {
+                    out.style.display = "inline-block";
+                } else {
+                    out.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+</html>

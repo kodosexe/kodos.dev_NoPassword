@@ -1,0 +1,63 @@
+html {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+
+}
+
+form > p {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form > input {
+    width: inherit;
+}
+
+.submit {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    width: 200px;
+    font-weight: bold;
+}
+
+form {
+    border-radius: 30px;
+    padding: 75px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+input {
+    border-radius: 10px;
+    padding: 2px 5px;
+    
+}
+
+input:active {
+    outline: none;
+}
+
+.rememberMe {
+    margin-top: 10px;
+}
+
+p{
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kodos</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header" id="header">
+            <div class="sidebar" id="sidebar">
+                <a href="./index.html">Home</a><br/>
+                <a href="./resume.html">Resume</a><br/>
+                <a href="./blog.html">Blog</a>
+            </div>
+            <div class="mainHead" id="mainHead">
+                <h1>Kodos</h1>
+            </div>
+        </div>
+        <div class="divider" id="divider"></div>
+        
+
+        <div id="contentWrapper" class="contentWrapper">
+            <p>This website is currently under Construction. Please check back later.</p>
+            <p>Following you can find some of my projects.</p>
+            <br>
+            <p>For questions and inquiries, you can contact me at info@kodos.dev at any time</p>
+        </div>
+        <div class="projectWrapper">
+        <div class="projectList">
+            <div class="project left" id="project1">
+                Lamp
+            </div>
+            <div class="project right" id="project2">
+                CNC Machine
+            </div>
+        </div>
+        </div>
+        <div class="projectWrapper">
+        <div class="projectList">
+            <div class="project left" id="project3">
+                Lura
+            </div>
+            <div class="project right" id="project4">
+                Kodos.dev
+            </div>
+        </div>
+        </div>
+
+        <br>
+        <div class="footer" id="footer">
+            <p>© Kodos - Website version Alpha 0.1 - Last update on June 6, 2020</p>
+        </div>
+
+        <script>
+            for (var x = 0; x < document.getElementsByClassName("project").length; x++) {
+                document.getElementsByClassName("project")[x].style.height = document.getElementsByClassName("project")[x].style.width;
+                console.log("Height is " + document.getElementsByClassName("project")[x].style.height);
+            }
+
+            document.getElementById("project1").style.height = document.getElementById("project1").clientWidth;
+            document.getElementById("project2").style.height = document.getElementById("project2").style.width;
+            document.getElementById("project3").style.height = document.getElementById("project3").style.width;
+            document.getElementById("project4").style.height = document.getElementById("project4").style.width;
+
+            if (screen.width / screen.height != 16/9) {
+                //alert("This website currently (v. Alpha 0.1) only supports 16:9 screens. Please excuse any scaling issues on other screens at this time.");
+            }
+        </script>
+    </body>
+</html>
