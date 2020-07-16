@@ -18,9 +18,9 @@ Notable STEM courses I enrolled in included
 * Robotics (2 Semesters)
 
 I have also completed several projects similar to this that I used to refine and expand my knowledge. As of now, they are a lot more poorly documented. Here are some links:
-(WebcamFaceDetect)[https://github.com/kodosexe/WebcamFaceDetect]
-(Raspi-Face-Aim)[https://github.com/kodosexe/raspi-face-aim]
-(ArduinoVexRobotControl)[https://github.com/kodosexe/ArduinoVexRobotControl]
+[WebcamFaceDetect](https://github.com/kodosexe/WebcamFaceDetect)
+[Raspi-Face-Aim](https://github.com/kodosexe/raspi-face-aim)
+[ArduinoVexRobotControl](https://github.com/kodosexe/ArduinoVexRobotControl)
 
 I am currently working on a website for a local Pittsburgh restaurant,  pabellonpgh.com. Completion of the website is dependant on the delivery date of new menus.
 I am also in talks with the owner to develop a mobile app for the restaurant in the future.
@@ -53,7 +53,7 @@ Note: This won't work in the example repo.
     * getColor.php
     * setColor.php
 
-The lamp files are where you want to look. This is where I have been spending most of my time to produce a website that's usable for testing purposes-
+The lamp files are where you want to look. This is where I have been spending most of my time to produce a website that's usable for testing purposes.
 
 ## History of kodos
 Kodos is a fictional chracter from Star Trek - The original series. While being an interesting character, it's also a cool name so I went for it.
